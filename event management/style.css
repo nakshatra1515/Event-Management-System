@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0%;
+  }
+  
+  #head{
+    margin-top: 0%;
+    padding-top: 0%;
+    margin: auto;
+  }
+  /* Add padding to containers */
+  .container {
+   
+   padding: 0% 100%;
+    background-color: white;
+    margin: 0px 20%;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 93%;
+    margin: 31% 0 137% 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 7% solid #f1f1f1;
+    margin-bottom: 156%;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #08281c;
+    color: white;
+    padding: 100% 125%;
+    margin: 50% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    
+    text-align: center;
+  }
